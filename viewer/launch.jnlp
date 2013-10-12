@@ -1,0 +1,20 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<jnlp codebase="CODEBASE" href="HREF">
+	<information> 
+		<title>Error Report Viewer</title>
+		<vendor>Moss Computing Inc.</vendor>
+		<description>Error Report Viewer</description>
+		<offline-allowed/>
+	</information>
+	<update check="always" policy="always"/>
+	<resources>
+		<j2se version="1.6.0_07+" initial-heap-size="256m" max-heap-size="512m" href="http://java.sun.com/products/autodl/j2se"/>
+JARS
+		<property name="errorReportServerURL" value="http://foobar.com/Reporting?wsdl"/>
+	</resources>
+	<security>
+		<all-permissions/>
+	</security>
+	<application-desc main-class="MAIN_CLASS">
+	</application-desc>
+</jnlp>
